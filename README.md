@@ -167,4 +167,4 @@ This project is licensed under the MIT License.
 
 ---
 
-For any questions or feedback, feel free to contact [Your Name] at [Your Email].
+For any questions or feedback, feel free to contact automate@0x30c4.dev.
