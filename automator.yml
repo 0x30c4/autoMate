@@ -1,0 +1,41 @@
+steps:
+
+  - name: Close popup
+    xpath: //*[@id="emergencyNoticeCloseBtn"]/span
+    wait_until: true
+    click: true
+
+  - name: Select your ivac center
+    xpath: "//select[@id='ivac']"
+    value: "2"
+    select: true
+    wait_until: true
+    wait_for: 1
+
+  - name: Select a mission
+    xpath: //*[@id="highcom"]
+    value: "2"
+    wait_for: 1
+    wait_until: true
+    select: true
+
+  - name: Enter your web file id
+    xpath: "#application > div:nth-child(1) > div.form-group.inner-addon.right-addon > input"
+    value: "BGDDW1F6DD24"
+    fill: true
+    wait_for: 1
+    wait_until: true
+
+  - name: Enter your web file id copy
+    xpath: "#application > div:nth-child(1) > div:nth-child(3) > input"
+    value: "BGDDW1F6DD24"
+    fill: true
+    wait_for: 1
+    wait_until: true
+
+  - name: Visa type
+    xpath: "#ivac_visa_type"
+    value: "object:49"
+    select: true
+    wait_until: true
+    wait_for: 1
