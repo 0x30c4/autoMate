@@ -43,7 +43,7 @@ func main() {
 	}
 
 	// Navigate to the target URL
-	url := "https://0x30c4.dev/" // Replace with your target URL
+	url := "https://google.com/" // Replace with your target URL
 	if _, err := page.Goto(url); err != nil {
 		log.Fatalf("could not go to URL: %v", err)
 	}

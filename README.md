@@ -1,6 +1,19 @@
 # AutoMate: Playwright Automation Framework for Golang
 
+<h1 align="center">autoMate</h1>
+<p align="center">
+  <img src="https://img.shields.io/github/languages/top/0x30c4/autoMate?style=flat-square" alt="Test">
+</p>
+<p align="justify">
 AutoMate is a lightweight and extensible automation tool built with Playwright for Golang. It provides a simple, configuration-driven approach to automate web interactions such as clicking elements, selecting options, filling inputs, and waiting for elements. The tool is ideal for scenarios involving repetitive UI interactions and testing.
+</p>
+<p align="center">
+  <a href="mailto:automate@0x30c4.dev"> automate@0x30c4.dev </a>
+</p>
+
+<br>
+<img src="./assets/demo.gif">
+<br>
 
 ---
 
